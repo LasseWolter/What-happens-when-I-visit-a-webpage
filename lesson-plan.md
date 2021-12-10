@@ -5,14 +5,14 @@
 The main learning objective is for students to understand the process behind web-browsing. This includes:
 
 - Understanding which components are involved
-- Understanding the different role/function that each component has
+- Understanding the unique role/function that each component has
 - Understanding the interaction between these components
 
 ## Requirements
 
 This is an unplugged activity with a brief introduction presentation. The presentation itself isn't enough to cover all the background knowledge required.
 Thus, the following topics should have been covered before:
-_(Note: This is not a complete list and further depends on the level of depth at which this activity is carried out)_
+_(Note: This is not an exhaustive list and further depends on the level of depth at which this activity is carried out)_
 
 - Basic understanding of networks: Different Computers connected to one another which allows them to communicate
 - What is an IP?

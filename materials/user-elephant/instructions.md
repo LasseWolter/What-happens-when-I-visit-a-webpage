@@ -1,7 +1,7 @@
 # User - Elephant49
 
 You are the user. From all the components involved you are the only human.
-You want to access information of a certain website.
+You want to access the information of a certain website.
 
 ### Who do you know?
 

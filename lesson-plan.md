@@ -54,14 +54,15 @@ Each role gets an instructions sheet and a set of materials specific to its role
 - Mappings from domain names to ip addresses
   - include the domain of the target website plus some other domains
     - such that an actual look up is needed
-    - the ip addresses can be made up but should match the standard format (see TODO link doc)
+    - the ip addresses can be made up but should match the standard format (see dns-records.txt for examples)
     - the domain names are ideally once that students recognise
 
 2. _User_
 
 - instruction sheet
 - URL of the website(s) to visit
-  - written on paper slips
+  - written on a paper slip
+  - _Note_: An example of a message containing the URL is given in the User materials. Embedding the URL in a message makes it closer to a real-world situation.
 
 3. _Web-Server_
 
@@ -69,7 +70,8 @@ Each role gets an instructions sheet and a set of materials specific to its role
 - A labeled printout of the HTML code representing the webpage and some other labeled HTML printouts representing the subpages of the website.
   - such that the student has to look for the correct page to return
   - _extension:_ for more advanced students one could omit the labels such that they have to interpret the HTML code
-- _simplification:_ The Web-Server has labeled printouts of the website and some of its subpages in already readable format.
+  - _simplification:_ The Web-Server has labeled printouts of the website and some of its subpages in already readable format.
+  - _Note_: An example file as picture (.png) and text (.txt) is given in the Web-Server materials. Need to be adjusted to suit the lesson.
 
 4. _Browser_
 

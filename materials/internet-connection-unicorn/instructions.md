@@ -1,6 +1,6 @@
 # Internet Connection - alias Unicorn357
 
-You are the internet connection. In the real world this is not just one component but thousands of different components connected to one another.
+You are the internet connection. In the real world this is not just one component but thousands of different connected components.
 You connect all the other components with one another.
 
 ### Who do you know?

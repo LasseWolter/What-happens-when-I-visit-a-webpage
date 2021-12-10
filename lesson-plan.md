@@ -105,6 +105,8 @@ Explain that all components are fixed except for the Internet Connection and the
 8. DNS writes a message with IP address and addresses it to the browser
 9. DNS ask the Internet Connection to come over and hands him/her the message.
 
+- _simplification (applies to all message-sending):_ Addressing it to the receiver (e.g. the browser) only works if the sender and receiver are both written on each message. To make it a bit easier the basic instructions state that message is handed to the Internet Connection with the request to send it back to where it came from.
+
 ---
 
 10. Internet Connection delivers the message back to the Browser.

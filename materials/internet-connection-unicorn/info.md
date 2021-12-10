@@ -27,4 +27,4 @@ You connect all the other components with one another.
 
 #### Wanna know more?
 
-1. _Every computer has such a numerical id called \_ip-address_. We have omitted some to make this experiment less confusing.\_
+1. Every computer has such a numerical id called _ip-address_. We have omitted some to make this experiment less confusing. The _ip-address_ is a so-called unique identifier meaning that if a component has an ip-address, it is guaranteed that no other component in the world has the same ip-address. Imagine it like the address of your home. If you give your exact address (including the country) to anyone in the world, they will be able to send you a package from anywhere in the world.

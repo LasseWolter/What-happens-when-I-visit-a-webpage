@@ -30,4 +30,4 @@ Wait for someone to contact you...
 1. You are a webserver. There are lots of different types of servers - imagine them as computers that serve different purposes.
    Some might store files, some store webpages (like you), others sent your emails for you.
    As a webserver your purpose is to wait for requests and respond with the corresponding webpage and/or do the corresponding task, like loggin in a user.
-2. tba
+2. We simplified this a little bit. Usually you, the component receiving a message, knows the sender as it is written on the message itself. Imagine it like a letter that is sent to you. On the one hand, it has your address to be clear where it should be delivered. On the other hand, it also states the address of where it came from. This means that you could answer this letter by sending a letter back to this address. This is how it works in the internet as well. The only difference is that the address is an _ip-address_, which you probably talked about in your lessons before.

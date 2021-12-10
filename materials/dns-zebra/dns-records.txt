@@ -1,0 +1,12 @@
+wikipedia.org,91.198.174.192
+independent.co.uk,151.101.1.184
+dict.cc,136.243.87.217
+goindigo.in,52.221.83.205
+microsoft.com,104.215.148.63
+dell.com,143.166.147.101
+britainexpress.com,212.84.88.244
+amazon.co.uk,54.239.33.58
+informationisbeautiful.net ,64.207.151.49
+waterstones.com,69.90.144.156
+blackwells.co.uk,213.177.248.109
+climateactiontracker.org,46.101.159.71

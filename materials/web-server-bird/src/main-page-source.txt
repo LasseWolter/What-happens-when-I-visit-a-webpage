@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html class="dark" data-useragent="Mozilla/5.0 (X11; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0" lang="en-US">
+    <script type="text/javascript" id="__gaOptOutExtension">
+        window["_gaUserPrefs"] = {
+            ioo: function () {
+                return true;
+            },
+        };
+    </script>
+    <script type="module" src="Information-is-Beautiful_files/hook.js"></script>
+    <head>
+        <link rel="preconnect" href="https://infobeautiful4.s3.amazonaws.com/" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com/" />
+        <title>Information is Beautiful</title>
+        <link rel="profile" href="https://gmpg.org/xfn/11" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="Distilling the world's data, information &amp; knowledge into beautiful infographics &amp; visualizations" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="author" content="Information is Beautiful" />
+        <meta property="fb:admins" content="691040583" />
+        <meta property="fb:admins" content="523482787" />
+        <meta property="fb:app_id" content="1270149909683440" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://informationisbeautiful.net/" />
+        <meta property="og:title" content="Information is Beautiful" />
+        <meta property="og:image" content="https://infobeautiful4.s3.amazonaws.com/2020/06/splash.png" />
+        <meta property="og:description" content="Distilling the world's data, information &amp; knowledge into beautiful infographics &amp; visualizations" />
+        <meta property="og:site_name" content="Information is Beautiful" />
+        <meta property="og:author" content="234129303417" />
+        <meta property="og:author" content="Information is Beautiful" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://informationisbeautiful.net/" />
+        <meta name="twitter:title" content="Information is Beautiful" />
+        <meta name="twitter:description" content="Distilling the world's data, information &amp; knowledge into beautiful infographics &amp; visualizations" />
+        <meta name="twitter:image" content="https://infobeautiful4.s3.amazonaws.com/2020/06/splash.png" />
+        <meta name="twitter:site" content="@infobeautiful" />
+        <meta name="twitter:creator" content="@infobeautiful" />
+        <link rel="apple-touch-icon" sizes="180x180" href="https://informationisbeautiful.net/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="https://informationisbeautiful.net/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="https://informationisbeautiful.net/favicon-16x16.png" />
+        <link rel="manifest" href="https://informationisbeautiful.net/manifest.json" />
+        <link rel="mask-icon" href="https://informationisbeautiful.net/safari-pinned-tab.svg" color="#f06292" />
+        <meta name="apple-mobile-web-app-title" content="Information is Beautiful" />
+        <meta name="application-name" content="Information is Beautiful" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- base href="https://informationisbeautiful.net/" -->
+        <script>
+            if (window.location.hash && window.location.href.indexOf("visualizations") > -1) {
+                window.scrollTo(0, 0);
+            }
+        </script>
+        <style type="text/css">
+            *,
+            :after,
+            :before {
+                -webkit-box-sizing: inherit;
+                box-sizing: inherit;
+            }
+            body,
+            html {
+                border: 0;
+                margin: 0;
+                padding: 0;
+            }
+            html {
+                -webkit-text-size-adjust: 100%;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                height: 100%;
+                background: #2a2a2e;
+            }
+            body {
+                width: 100%;
+                max-width: 2600px;
+                min-width: 320px;
+                margin: auto;
+            }
+            body.menu-toggled {
+                overflow: hidden;
+            }
+            @supports ((-webkit-animation: fadeIn) or (animation: fadeIn)) {
+                body {
+                    opacity: 0;
+                }
+                body[data-loaded="loaded"] {
+                    -webkit-animation: fadeIn 0.75s linear 0.25s forwards;
+                    animation: fadeIn 0.75s linear 0.25s forwards;
+                }
+            }
+            .iib-skip-content {
+                font-family: sans-serif;
+            }
+            .iib-base {
+                overflow-x: hidden;
+                position: relative;
+                color: #4f4f56;
+                background: #f9f9f9;
+            }
+            html.dark .iib-base {
+                background: #17191f;
+                color: #e7e7e7;
+            }
+            .site-main {
+                min-height: 75vh;
+            }
+            .site-main h2,
+            .site-main h3,
+            .site-main h4,
+            .site-main h5,
+            .site-main h6 {
+                margin: 0;
+                padding: 0;
+                font-weight: 600;
+            }
+            .site-main h2 {
+                font-family: Quicksand, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+                margin-bottom: 0.5em;
+            }
+            .site-main h1,
+            .site-main h2 {
+                letter-spacing: -0.025em;
+            }
+            .iib-w {
+                width: calc(100% - 36px);
+                max-width: 1600px;
+                margin: auto;
+            }
+            @media (min-width: 801px) {
+                .iib-w {
+                    width: calc(100% - 48px);
+                }
+            }
+            @media (min-width: 1025px) {
+                .iib-w {
+                    width: calc(100% - 60px);
+                }
+            }
+            .iib-w-inner--tight {
+                width: 700px;
+                max-width: calc(100% - 20px);
+                margin: auto;
+            }
+            @media (min-width: 1441px) {
+                .iib-w-inner--tight {
+                    width: 900px;
+                }
+            }
+            .iib-w-inner--loose {
+                width: 960px;
+                max-width: calc(100% - 20px);
+                margin: auto;
+            }
+            @media (min-width: 1441px) {
+                .iib-w-inner--loose {
+                    width: 1100px;
+                }
+            }
+            html.no-grid .iib-grid--flow {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            }
+            html.no-grid .iib-grid--flow .iib-grid-item {
+                width: 50%;
+            }
+            @media (min-width: 801px) {
+                html.no-grid .iib-grid--flow .iib-grid-item {
+                    width: 25%;
+                }
+            }
+            .iib-grid--loading {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                width: 100%;
+                height: 200px;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+            }
+            .iib-grid--loading span {
+                height: 32px;
+                width: 32px;
+                background: url(//infobeautiful4.s3.amazonaws.com/www/img/information-is-beautiful-logo-flower.svg);
+                background-size: 32px;
+                -webkit-filter: brightness(0);
+                filter: brightness(0);
+                opacity: 0.3;
+                -webkit-animation: spin 2s linear infinite;
+                animation: spin 2s linear infinite;
+            }
+            html.dark .iib-grid--loading span {
+                -webkit-filter: brightness(0) invert(1);
+                filter: brightness(0) invert(1);
+                opacity: 0.5;
+            }
+            #iib-masthead {
+                height: 40px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                border-bottom: 1px solid #ddd;
+                position: relative;
+                z-index: 9;
+                background: #f9f9f9;
+            }
+            html.dark #iib-masthead {
+                background: #17191f;
+                color: #e7e7e7;
+                border-bottom: none;
+            }
+            @media (min-width: 801px) {
+                #iib-masthead {
+                    height: 56px;
+                }
+            }
+            #iib-masthead p.iib-site-title {
+                margin: 0;
+            }
+            #iib-masthead div.iib-w {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+            }
+            .iib-logo {
+                height: 20px;
+                line-height: 0;
+                display: block;
+                margin-top: -2px;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                width: 240px;
+            }
+            @media (min-width: 801px) {
+                .iib-logo {
+                    height: 28px;
+                    width: 300px;
+                }
+            }
+            .iib-logo .iib-logo--flower {
+                width: 20px;
+                height: 20px;
+                margin-right: 6px;
+            }
+            @media (min-width: 801px) {
+                .iib-logo .iib-logo--flower {
+                    width: 28px;
+                    height: 28px;
+                    margin-right: 10px;
+                }
+            }
+            .iib-logo .iib-logo--text {
+                height: 20px;
+                width: auto;
+            }
+            @media (min-width: 801px) {
+                .iib-logo .iib-logo--text {
+                    height: 22px;
+                    position: relative;
+                    top: -3px;
+                }
+            }
+            @media (min-width: 1025px) {
+                .iib-logo .iib-logo--text {
+                    height: 25px;
+                    top: -2px;
+                }
+            }
+            .iib-overlay {
+                display: none;
+            }
+            body {
+                font-family: sans-serif;
+            }
+        </style>
+        <link rel="stylesheet" href="Information-is-Beautiful_files/style.css" media="all" onload="this.media='all';document.body.setAttribute('data-loaded', 'loaded')" />
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "name": "Information is Beautiful",
+                "@type": "Organization",
+                "url": "https://informationisbeautiful.net",
+                "logo": "https://infobeautiful4.s3.amazonaws.com/www/img/logo-composed-light.png",
+                "sameAs": ["https://www.facebook.com/informationisbeautiful", "https://www.twitter.com/infobeautiful"]
+            }
+        </script>
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "WebSite",
+                "name": "Information is Beautiful",
+                "alternateName": "IIB",
+                "url": "https://informationisbeautiful.net",
+                "potentialAction": { "@type": "SearchAction", "target": "https://informationisbeautiful.net/search/{s}", "query-input": "required name=s" }
+            }
+        </script>
+        <style>
+            .vimvixen-console-frame {
+                margin: 0;
+                padding: 0;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                position: fixed;
+                z-index: 2147483647;
+                border: none !important;
+                background-color: unset !important;
+                pointer-events: none;
+            }
+
+            .vimvixen-hint {
+                background-color: yellow;
+                border: 1px solid gold;
+                font-weight: bold;
+                position: absolute;
+                text-transform: uppercase;
+                z-index: 2147483647;
+                font-size: 12px;
+                color: black;
+            }
+        </style>
+        <script src="Information-is-Beautiful_files/prompt.js"></script>
+        <style id="iib-style--promo" type="text/css">
+            .iib-promo {
+                background-image: linear-gradient(to left, #d14980, #f0c33d);
+            }
+            .iib-promo--bg {
+                background-color: #d14980;
+                background-blend-mode: screen;
+                opacity: 0.4;
+            }
+            .iib-promo--button-list li a {
+                background: #fdd835;
+            }
+            .iib-promo--button-list li a:hover {
+                background: #fbc02d;
+            }
+            .iib-promo--button-list li a.sold-out {
+                pointer-events: none;
+            }
+            .iib-promo--button-list li a.sold-out:before {
+                content: "Sold out";
+                background: #e53935;
+                color: white;
+                display: block;
+                text-transform: uppercase;
+                transform: translate(-50%, -50%) rotate(-8deg);
+                transform-origin: center center;
+                padding: 3px 4px;
+                line-height: 100%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                font-size: 12px;
+                white-space: nowrap;
+                opacity: 0.9;
+            }
+        </style>
+        <style id="iib-style--page-promo" type="text/css">
+            .iib-page-promo {
+                background: linear-gradient(to left, #d14980, #f0c33d);
+                font-size: 14px;
+            }
+            .iib-page-promo .iib-promo--book-now {
+                background: #fdd835;
+                color: #333;
+                padding: 1px 4px;
+                border-radius: 2px;
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+                text-decoration: none;
+                transition: background 0.1s linear;
+                font-weight: bold;
+                font-family: "IBM Plex Sans", sans-serif;
+                text-shadow: none;
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+                display: block;
+                width: 100px;
+                margin: 4px auto 4px auto;
+            }
+            .iib-page-promo .iib-promo--book-now:hover {
+                background: #fbc02d;
+                color: black;
+            }
+            @media screen and (min-width: 640px) {
+                .iib-page-promo .iib-promo--book-now {
+                    display: inline-block;
+                    width: auto;
+                    margin: auto;
+                }
+            }
+            @media screen and (min-width: 800px) {
+                .iib-page-promo {
+                    font-size: 15px;
+                }
+                .iib-page-promo .iib-promo--book-now {
+                    padding: 3px 7px;
+                }
+            }
+            @media screen and (min-width: 1024px) {
+                .iib-page-promo {
+                    font-size: 16px;
+                }
+            }
+            @media screen and (min-width: 1281px) {
+                .iib-page-promo {
+                    font-size: 23px;
+                    font-weight: 600;
+                }
+            }
+        </style>
+    </head>
+    <body class="home page-template-default page page-id-4388" data-loaded="loaded" data-new-gr-c-s-check-loaded="8.888.0" data-gr-ext-installed="">
+        <a class="iib-skip-content screen-reader-text" href="#primary">Skip to content</a>
+        <div id="iib-page" class="iib-base has-banner--bottom">
+            <header id="iib-masthead" class="iib-site-header">
+                <div class="iib-w">
+                    <div class="iib-logo">
+                        <a href="https://informationisbeautiful.net/">
+                            <img alt="Information is Beautiful flower logo" class="iib-logo--flower" src="Information-is-Beautiful_files/information-is-beautiful-logo-flower.svg" />
+                            <img alt="Information is Beautiful" class="iib-logo--text" src="Information-is-Beautiful_files/information-is-beautiful-logo-text-light.svg" />
+                        </a>
+                    </div>
+                    <nav id="site-navigation" class="main-navigation">
+                        <button class="menu-toggle" aria-label="Main menu" aria-controls="primary-menu" aria-expanded="false" data-state="toggled"><i class="icon-menu"></i><span>Menu</span></button>
+                        <div class="main-navigation--inner" style="display: block;">
+                            <div class="main-navigation--inner-wrapper">
+                                <div class="main-navigation--section main-navigation--primary">
+                                    <h3 data-state="on">
+                                        <span><i class="icon-angle-right"></i></span>Sections
+                                    </h3>
+                                    <div class="main-navigation--panel" data-state="on">
+                                        <ul>
+                                            <li class="current-menu-item">
+                                                <a href="https://informationisbeautiful.net/"><span>home</span></a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://informationisbeautiful.net/about/"><span>about</span></a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://informationisbeautiful.net/blog/"><span>blog</span></a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://informationisbeautiful.net/data/"><span>data</span></a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://informationisbeautiful.net/workshops/"><span>online training</span></a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://informationisbeautiful.net/books/"><span>books</span></a>
+                                            </li>
+                                            <li class="">
+                                                <a href="https://informationisbeautiful.net/contact/"><span>contact</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="main-navigation--section main-navigation--search">
+                                    <ul>
+                                        <li>
+                                            <a class="iib-search-trigger" href="#" data-state="off">
+                                                <span><i class="icon-search"></i> Search</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="main-navigation--section main-navigation--socials">
+                                    <h3 data-state="on">
+                                        <span><i class="icon-angle-right"></i></span>Connect
+                                    </h3>
+                                    <div class="main-navigation--panel" data-state="on">
+                                        <ul>
+                                            <li>
+                                                <a title="Facebook" target="_blank" rel="noopener" href="https://fb.com/informationisbeautiful"><i class="icon-facebook"></i><span>Facebook</span></a>
+                                            </li>
+                                            <li>
+                                                <a title="Twitter" target="_blank" rel="noopener" href="https://twitter.com/infobeautiful"><i class="icon-twitter"></i><span>Twitter</span></a>
+                                            </li>
+                                            <li>
+                                                <a title="Instagram" target="_blank" rel="noopener" href="https://instagram.com/infobeautiful"><i class="icon-instagram"></i><span>Instagram</span></a>
+                                            </li>
+                                            <li>
+                                                <a class="iib-signup-rss" title="RSS feed" target="_blank" rel="noopener" href="http://feeds.feedburner.com/InformationIsBeautiful"><i class="icon-rss"></i><span>RSS Feed</span></a>
+                                            </li>
+                                            <li>
+                                                <a class="iib-signup-trigger" title="Newsletter" href="#"><i class="icon-mail"></i><span>Subscribe</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="main-navigation--section main-navigation--aux">
+                                    <h3>
+                                        <span><i class="icon-angle-right"></i></span>Settings
+                                    </h3>
+                                    <div class="main-navigation--panel">
+                                        <ul>
+                                            <li>
+                                                <input checked="checked" type="checkbox" id="iib-dark-mode" name="iib-dark-mode" class="iib-toggle iib-toggle--dark-mode" />
+                                                <label for="iib-dark-mode" title="Toggle dark mode"><i class="icon-color-adjust"></i><span>Toggle dark theme</span></label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="iib-mini-nav">
+                            <ul>
+                                <li>
+                                    <a class="iib-mini-nav--social" title="Facebook" target="_blank" rel="noopener" href="https://fb.com/informationisbeautiful"><i class="icon-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a class="iib-mini-nav--social" title="Twitter" target="_blank" rel="noopener" href="https://twitter.com/infobeautiful"><i class="icon-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a class="iib-mini-nav--social" title="Instagram" target="_blank" rel="noopener" href="https://instagram.com/infobeautiful"><i class="icon-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a class="iib-mini-nav--search iib-search-trigger" href="#" data-state="off"><i class="icon-search"></i> <span>Search</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <section role="banner" class="iib-promo">
+                <div class="iib-promo--7469 iib-promo--wrapper">
+                    <div class="iib-promo--content">
+                        <div class="iib-w">
+                            <a href="https://informationisbeautiful.net/workshops" rel="noopener" target="_blank" class="iib-promo--bg-link">
+                                <h2 class="iib-promo--headline">Learn to create impactful infographics &amp; data visuals</h2>
+                                <span class="iib-promo--subheading">Live virtual one-day seminars &amp; streamable recorded trainings</span>
+                            </a>
+                            <ul class="iib-promo--button-list">
+                                <li><a href="https://informationisbeautiful.net/workshops/pre-recorded-data-visualisation-training/" target="_blank" class="">NEW! Pre-recorded training</a></li>
+                                <li><a href="https://www.eventbrite.co.uk/e/166034135569" target="_blank" class="">LIVE Low-Income Nations Nov 8th</a></li>
+                                <li><a href="https://www.eventbrite.co.uk/e/data-is-beautiful-learn-to-create-powerful-infographics-data-visuals-tickets-204673021517" target="_blank" class="">LIVE USA Feb 1st 2022</a></li>
+                                <li><a href="https://www.eventbrite.co.uk/e/data-is-beautiful-learn-to-create-powerful-infographics-data-visuals-uk-tickets-204681336387" target="_blank" class="">LIVE UK Mar 1st 2022</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section role="main" id="primary" class="site-main">
+                <div class="iib-main-filters-wrapper">
+                    <div class="iib-main-filters-inner">
+                        <ul class="iib-main-filters" style="flex-wrap: wrap;">
+                            <li><a href="https://informationisbeautiful.net/beautifulnews" target="_blank" rel="noopener">Beautiful News</a></li>
+                            <li><button class="iib-main-filter" data-filter-name="Tech &amp; Digital" data-filter-string="tech-digital" data-state="off" data-filter="99">Tech &amp; Digital</button></li>
+                            <li><button class="iib-main-filter" data-filter-name="Science &amp; Health" data-filter-string="science-health" data-state="off" data-filter="88">Science &amp; Health</button></li>
+                            <li><button class="iib-main-filter" data-filter-name="Nature &amp; Climate" data-filter-string="nature-climate" data-state="off" data-filter="87">Nature &amp; Climate</button></li>
+                            <li><button class="iib-main-filter" data-filter-name="Money &amp; Economy" data-filter-string="money-economy" data-state="off" data-filter="91">Money &amp; Economy</button></li>
+                            <li><button class="iib-main-filter" data-filter-name="Just For Fun" data-filter-string="just-for-fun" data-state="off" data-filter="102">Just For Fun</button></li>
+                            <li><button class="iib-main-filter" data-filter-name="Ideas &amp; Perception" data-filter-string="ideas-perception" data-state="off" data-filter="90">Ideas &amp; Perception</button></li>
+                            <li><button class="iib-main-filter" data-filter-name="Gender &amp; Diversity" data-filter-string="gender-diversity" data-state="off" data-filter="96">Gender &amp; Diversity</button></li>
+                            <li><button class="iib-main-filter" data-filter-name="Food &amp; Drink" data-filter-string="food-drink" data-state="off" data-filter="89">Food &amp; Drink</button></li>
+                            <li><button class="iib-main-filter" data-filter-name="Dataviz &amp; Design" data-filter-string="dataviz-design" data-state="off" data-filter="93">Dataviz &amp; Design</button></li>
+                            <li><button class="iib-main-filter" data-filter-name="Arts &amp; Culture" data-filter-string="arts-culture" data-state="off" data-filter="92">Arts &amp; Culture</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="iib-w iib-grid-wrapper">
+                    <div class="iib-grid iib-main-grid iib-grid--viz">
+                        <article itemscope="" itemtype="https://schema.org/Article" class="iib-grid-post iib-grid-post--priority iib-grid-post--1x1" style="">
+                            <a href="https://informationisbeautiful.net/visualizations/what-can-we-do-personally-to-reduce-emissions/">
+                                <div class="iib-grid-post--image">
+                                    <meta itemprop="image" content="//infobeautiful4.s3.amazonaws.com/2021/11/Netzero-IIB-personally-BLOG-related-image.png" />
+                                    <div role="presentation" style="background-image: url(//infobeautiful4.s3.amazonaws.com/2021/11/Netzero-IIB-personally-BLOG-related-image.png);"></div>
+                                </div>
+                                <div class="iib-grid-post--text">
+                                    <meta itemprop="author" content="Information is Beautiful" />
+                                    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization"><meta itemprop="name" content="Information is Beautiful" /></div>
+                                    <meta itemprop="datePublished" content="2021-11-01" /><meta itemprop="dateModified" content="2021-11-01" />
+                                    <meta itemprop="mainEntityOfPage" content="https://informationisbeautiful.net/visualizations/what-can-we-do-personally-to-reduce-emissions/" />
+                                    <h2>What Can We Do Personally to Reduce Emissions?</h2>
+                                    <span>Genuinely impactful actions</span>
+                                </div>
+                            </a>
+                        </article>
+                        <article itemscope="" itemtype="https://schema.org/Article" class="iib-grid-post iib-grid-post--priority iib-grid-post--1x1" style="">
+                            <a href="https://informationisbeautiful.net/visualizations/how-to-get-the-world-to-netzero-by-2050/">
+                                <div class="iib-grid-post--image">
+                                    <meta itemprop="image" content="//infobeautiful4.s3.amazonaws.com/2021/10/CarbonZero-IIB-featured-image.png" />
+                                    <div role="presentation" style="background-image: url(//infobeautiful4.s3.amazonaws.com/2021/10/CarbonZero-IIB-featured-image.png);"></div>
+                                </div>
+                                <div class="iib-grid-post--text">
+                                    <meta itemprop="author" content="Information is Beautiful" />
+                                    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization"><meta itemprop="name" content="Information is Beautiful" /></div>
+                                    <meta itemprop="datePublished" content="2021-10-20" /><meta itemprop="dateModified" content="2021-10-28" />
+                                    <meta itemprop="mainEntityOfPage" content="https://informationisbeautiful.net/visualizations/how-to-get-the-world-to-netzero-by-2050/" />
+                                    <h2>How to Get the World to Netzero by 2050</h2>
+                                    <span>A graphical guide</span>
+                                </div>
+                            </a>
+                        </article>
+                        <article itemscope="" itemtype="https://schema.org/Article" class="iib-grid-post iib-grid-post--priority iib-grid-post--1x1" style="">
+                            <a href="https://informationisbeautiful.net/visualizations/beautiful-news-the-book-by-david-mccandless/">
+                                <div class="iib-grid-post--image">
+                                    <meta itemprop="image" content="//infobeautiful4.s3.amazonaws.com/2021/10/IIB-BNEWS-featured-image.svg" />
+                                    <div role="presentation" style="background-image: url(//infobeautiful4.s3.amazonaws.com/2021/10/IIB-BNEWS-featured-image.svg);"></div>
+                                </div>
+                                <div class="iib-grid-post--text">
+                                    <meta itemprop="author" content="Information is Beautiful" />
+                                    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization"><meta itemprop="name" content="Information is Beautiful" /></div>
+                                    <meta itemprop="datePublished" content="2021-10-04" /><meta itemprop="dateModified" content="2021-10-04" />
+                                    <meta itemprop="mainEntityOfPage" content="https://informationisbeautiful.net/visualizations/beautiful-news-the-book-by-david-mccandless/" />
+                                    <h2>Beautiful News, The Book, by David McCandless</h2>
+                                    <span>our new 256-page infographic tome</span>
+                                </div>
+                            </a>
+                        </article>
+                        <article itemscope="" itemtype="https://schema.org/Article" class="iib-grid-post iib-grid-post--priority iib-grid-post--1x1" style="">
+                            <a href="https://informationisbeautiful.net/visualizations/global-food-supply-where-does-all-the-worlds-food-go/">
+                                <div class="iib-grid-post--image">
+                                    <meta itemprop="image" content="//infobeautiful4.s3.amazonaws.com/2021/09/Global-Food-Supply-related-image-920x440-1.svg" />
+                                    <div role="presentation" style="background-image: url(//infobeautiful4.s3.amazonaws.com/2021/09/Global-Food-Supply-related-image-920x440-1.svg);"></div>
+                                </div>
+                                <div class="iib-grid-post--text">
+                                    <meta itemprop="author" content="Information is Beautiful" />
+                                    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization"><meta itemprop="name" content="Information is Beautiful" /></div>
+                                    <meta itemprop="datePublished" content="2021-09-22" /><meta itemprop="dateModified" content="2021-09-22" />
+                                    <meta itemprop="mainEntityOfPage" content="https://informationisbeautiful.net/visualizations/global-food-supply-where-does-all-the-worlds-food-go/" />
+                                    <h2>Global Food Supply – Where Does All The World’s Food Go?</h2>
+                                </div>
+                            </a>
+                        </article>
+                        <article itemscope="" itemtype="https://schema.org/Article" class="iib-grid-post iib-grid-post--priority iib-grid-post--1x1" style="">
+                            <a href="https://informationisbeautiful.net/visualizations/words-shakespeare-invented/">
+                                <div class="iib-grid-post--image">
+                                    <meta itemprop="image" content="//infobeautiful4.s3.amazonaws.com/2021/06/Shakespeare-IIB-featured-1030x520x2-version2.png" />
+                                    <div role="presentation" style="background-image: url(//infobeautiful4.s3.amazonaws.com/2021/06/Shakespeare-IIB-featured-1030x520x2-version2.png);"></div>
+                                </div>
+                                <div class="iib-grid-post--text">
+                                    <meta itemprop="author" content="Information is Beautiful" />
+                                    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization"><meta itemprop="name" content="Information is Beautiful" /></div>
+                                    <meta itemprop="datePublished" content="2021-06-25" /><meta itemprop="dateModified" content="2021-09-20" />
+                                    <meta itemprop="mainEntityOfPage" content="https://informationisbeautiful.net/visualizations/words-shakespeare-invented/" />
+                                    <h2>400+ Words Shakespeare Invented or Coined</h2>
+                                </div>
+                            </a>
+                        </article>
+                        <article itemscope="" itemtype="https://schema.org/Article" class="iib-grid-post iib-grid-post--priority iib-grid-post--1x1" style="">
+                            <a href="https://informationisbeautiful.net/visualizations/ransomware-attacks/">
+                                <div class="iib-grid-post--image">
+                                    <meta itemprop="image" content="//infobeautiful4.s3.amazonaws.com/2021/06/IIB-featured-1030x520-1.png" />
+                                    <div role="presentation" style="background-image: url(//infobeautiful4.s3.amazonaws.com/2021/06/IIB-featured-1030x520-1.png);"></div>
+                                </div>
+                                <div class="iib-grid-post--text">
+                                    <meta itemprop="author" content="Information is Beautiful" />
+                                    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization"><meta itemprop="name" content="Information is Beautiful" /></div>
+                                    <meta itemprop="datePublished" content="2021-06-23" /><meta itemprop="dateModified" content="2021-09-13" />
+                                    <meta itemprop="mainEntityOfPage" content="https://informationisbeautiful.net/visualizations/ransomware-attacks/" />
+                                    <h2>Ransomware Attacks</h2>
+                                    <span>biggest, notable, most recent</span>
+                                </div>
+                            </a>
+                        </article>
+                        <article itemscope="" itemtype="https://schema.org/Article" class="iib-grid-post iib-grid-post--priority iib-grid-post--1x1" style="">
+                            <a href="https://informationisbeautiful.net/visualizations/coronavirus-riskiest-activities/">
+                                <div class="iib-grid-post--image">
+                                    <meta itemprop="image" content="//infobeautiful4.s3.amazonaws.com/2020/07/iib-corona-riskiest.png" />
+                                    <div role="presentation" style="background-image: url(//infobeautiful4.s3.amazonaws.com/2020/07/iib-corona-riskiest.png);"></div>
+                                </div>
+                                <div class="iib-grid-post--text">
+                                    <meta itemprop="author" content="Information is Beautiful" />
+                                    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization"><meta itemprop="name" content="Information is Beautiful" /></div>
+                                    <meta itemprop="datePublished" content="2020-07-03" /><meta itemprop="dateModified" content="2020-07-09" />
+                                    <meta itemprop="mainEntityOfPage" content="https://informationisbeautiful.net/visualizations/coronavirus-riskiest-activities/" />
+                                    <h2>Coronavirus Riskiest Activities</h2>
+                                </div>
+                            </a>
+                        </article>
+                        <article itemscope="" itemtype="https://schema.org/Article" class="iib-grid-post iib-grid-post--priority iib-grid-post--1x1" style="">
+                            <a href="https://informationisbeautiful.net/visualizations/covid-19-coronavirus-infographic-datapack/">
+                                <div class="iib-grid-post--image">
+                                    <meta itemprop="image" content="//infobeautiful4.s3.amazonaws.com/2020/03/COVID19-coronavirus-datapack-featured-image.png" />
+                                    <div role="presentation" style="background-image: url(//infobeautiful4.s3.amazonaws.com/2020/03/COVID19-coronavirus-datapack-featured-image.png);"></div>
+                                </div>
+                                <div class="iib-grid-post--text">
+                                    <meta itemprop="author" content="Information is Beautiful" />
+                                    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization"><meta itemprop="name" content="Information is Beautiful" /></div>
+                                    <meta itemprop="datePublished" content="2020-03-09" /><meta itemprop="dateModified" content="2021-08-06" />
+                                    <meta itemprop="mainEntityOfPage" content="https://informationisbeautiful.net/visualizations/covid-19-coronavirus-infographic-datapack/" />
+                                    <h2>COVID-19 #CoronaVirus Infographic Datapack</h2>
+                                    <span>Updated daily, now with global vaccination stats</span>
+                                </div>
+                            </a>
+                        </article>
+                        <article itemscope="" itemtype="https://schema.org/Article" class="iib-grid-post iib-grid-post--priority iib-grid-post--1x1" style="">
+                            <a href="https://informationisbeautiful.net/visualizations/beautiful-news/">
+                                <div class="iib-grid-post--image">
+                                    <meta itemprop="image" content="//infobeautiful4.s3.amazonaws.com/2019/10/bnews-featured-image.jpg" />
+                                    <div role="presentation" style="background-image: url(//infobeautiful4.s3.amazonaws.com/2019/10/bnews-featured-image.jpg);"></div>
+                                </div>
+                                <div class="iib-grid-post--text">
+                                    <meta itemprop="author" content="Information is Beautiful" />
+                                    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization"><meta itemprop="name" content="Information is Beautiful" /></div>
+                                    <meta itemprop="datePublished" content="2019-10-01" /><meta itemprop="dateModified" content="2020-08-11" />
+                                    <meta itemprop="mainEntityOfPage" content="https://informationisbeautiful.net/visualizations/beautiful-news/" />
+                                    <h2>Beautiful News</h2>
+                                    <span>unseen trends, uplifting stats — daily</span>
+                                </div>
+                            </a>
+                        </article>
+                        <article itemscope="" itemtype="https://schema.org/Article" class="iib-grid-post iib-grid-post--priority iib-grid-post--1x1" style="">
+                            <a href="https://informationisbeautiful.net/visualizations/how-to-reduce-the-worlds-carbon-footprint-by-2050/">
+                                <div class="iib-grid-post--image">
+                                    <meta itemprop="image" content="//infobeautiful4.s3.amazonaws.com/2019/05/IIB_carbon-zero-460.png" />
+                                    <div role="presentation" style="background-image: url(//infobeautiful4.s3.amazonaws.com/2019/05/IIB_carbon-zero-460.png);"></div>
+                                </div>
+                                <div class="iib-grid-post--text">
+                                    <meta itemprop="author" content="Information is Beautiful" />
+                                    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization"><meta itemprop="name" content="Information is Beautiful" /></div>
+                                    <meta itemprop="datePublished" content="2019-05-17" /><meta itemprop="dateModified" content="2020-07-30" />
+                                    <meta itemprop="mainEntityOfPage" content="https://informationisbeautiful.net/visualizations/how-to-reduce-the-worlds-carbon-footprint-by-2050/" />
+                                    <h2>How to Reduce the World’s Carbon Footprint by 2050</h2>
+                                </div>
+                            </a>
+                        </article>
+                        <article itemscope="" itemtype="https://schema.org/Article" class="iib-grid-post iib-grid-post--priority iib-grid-post--1x1" style="">
+                            <a href="https://informationisbeautiful.net/visualizations/trillions-what-is-a-trillion-dollars/">
+                                <div class="iib-grid-post--image">
+                                    <meta itemprop="image" content="//infobeautiful4.s3.amazonaws.com/2018/08/trillions-460.png" />
+                                    <div role="presentation" style="background-image: url(//infobeautiful4.s3.amazonaws.com/2018/08/trillions-460.png);"></div>
+                                </div>
+                                <div class="iib-grid-post--text">
+                                    <meta itemprop="author" content="Information is Beautiful" />
+                                    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization"><meta itemprop="name" content="Information is Beautiful" /></div>
+                                    <meta itemprop="datePublished" content="2018-08-16" /><meta itemprop="dateModified" content="2020-11-25" />
+                                    <meta itemprop="mainEntityOfPage" content="https://informationisbeautiful.net/visualizations/trillions-what-is-a-trillion-dollars/" />
+                                    <h2>Trillions – What is a trillion dollars?</h2>
+                                </div>
+                            </a>
+                        </article>
+                        <article itemscope="" itemtype="https://schema.org/Article" class="iib-grid-post iib-grid-post--priority iib-grid-post--1x1" style="">
+                            <a href="https://informationisbeautiful.net/visualizations/based-on-a-true-true-story/">
+                                <div class="iib-grid-post--image">
+                                    <meta itemprop="image" content="//infobeautiful4.s3.amazonaws.com/2016/02/420-related-BOATS-1.png" />
+                                    <div role="presentation" style="background-image: url(//infobeautiful4.s3.amazonaws.com/2016/02/420-related-BOATS-1.png);"></div>
+                                </div>
+                                <div class="iib-grid-post--text">
+                                    <meta itemprop="author" content="Information is Beautiful" />
+                                    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization"><meta itemprop="name" content="Information is Beautiful" /></div>
+                                    <meta itemprop="datePublished" content="2016-02-25" /><meta itemprop="dateModified" content="2020-11-25" />
+                                    <meta itemprop="mainEntityOfPage" content="https://informationisbeautiful.net/visualizations/based-on-a-true-true-story/" />
+                                    <h2>Based on a *True* True Story?</h2>
+                                    <span>Scene-by-scene breakdown of Hollywood "true stories"</span>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section role="banner" class="iib-page-promo iib-page-promo--bottom iib-promo--7469">
+                <div class="iib-promo--content">
+                    <div class="iib-w">
+                        <div><strong class="iib-promo--new">New!</strong> Learn to do data-viz with our online seminars. <a class="iib-promo--book-now" href="https://informationisbeautiful.net/workshops">Book now!</a></div>
+                    </div>
+                </div>
+            </section>
+            <footer class="iib-footer">
+                <div class="iib-parent iib-parent--tint-10 iib-parent--top-border iib-footer-signup-wrapper">
+                    <div class="iib-w">
+                        <div class="iib-w-inner--loose">
+                            <form
+                                role="form"
+                                action="//informationisbeautiful.us6.list-manage.com/subscribe/post?u=ddd60592f59ea1712ed3d1937&amp;id=0f32d82422"
+                                method="post"
+                                name="mc-embedded-subscribe-form"
+                                class="iib-signup iib-signup--after-content validate"
+                                target="_blank"
+                                rel="noopener"
+                                novalidate=""
+                            >
+                                <h3><label for="iib_signup_footer_email">Want more? Our monthly newsletter...</label></h3>
+                                <div class="iib-fields"><input id="iib_signup_footer_email" name="EMAIL" type="email" placeholder="Your email address..." /> <button type="submit">Subscribe</button></div>
+                                <p>
+                                    <span class="iib-signup-legal">We <strong>never</strong> share your data.</span>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="iib-footer--lower">
+                    <div class="iib-w">
+                        <div class="iib-footer--inner iib-blocks iib-blocks--4">
+                            <div class="iib-block--footer iib-block--footer-mission">
+                                <h5>Our mission</h5>
+                                <p>Distilling the world's data, information and knowledge into beautiful infographics and visualizations.</p>
+                            </div>
+                            <div class="iib-block--footer iib-block--footer-menu">
+                                <h5>Menu</h5>
+                                <ul>
+                                    <li><a href="https://informationisbeautiful.net/">Home</a></li>
+                                    <li><a href="https://informationisbeautiful.net/about">About</a></li>
+                                    <li><a href="https://informationisbeautiful.net/blog">Blog</a></li>
+                                    <li><a href="https://informationisbeautiful.net/contact">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="iib-block--footer iib-block--footer-connect">
+                                <h5>Connect</h5>
+                                <ul>
+                                    <li>
+                                        <a title="Facebook" target="_blank" rel="noopener" href="https://fb.com/informationisbeautiful"><i class="icon-facebook"></i><span>Facebook</span></a>
+                                    </li>
+                                    <li>
+                                        <a title="Twitter" target="_blank" rel="noopener" href="https://twitter.com/infobeautiful"><i class="icon-twitter"></i><span>Twitter</span></a>
+                                    </li>
+                                    <li>
+                                        <a title="Instagram" target="_blank" rel="noopener" href="https://instagram.com/infobeautiful"><i class="icon-instagram"></i><span>Instagram</span></a>
+                                    </li>
+                                    <li>
+                                        <a title="RSS feed" target="_blank" rel="noopener" href="http://feeds.feedburner.com/InformationIsBeautiful"><i class="icon-rss"></i><span>RSS Feed</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="iib-block--footer iib-block--footer-links">
+                                <h5>Our Picks</h5>
+                                <ul>
+                                    <li><a href="https://informationisbeautiful.net/interactive">Interactive graphics</a></li>
+                                    <li><a href="https://informationisbeautiful.net/books">See our books</a></li>
+                                    <li><a href="https://informationisbeautiful.net/workshops">Dataviz workshops</a></li>
+                                    <li><a target="_blank" rel="noopener" href="http://davidmccandless.com/">DavidMcCandless.com</a></li>
+                                    <li><a target="_blank" rel="noopener" href="http://vizsweet.com/">Vizsweet.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="iib-footer--small">
+                            <div class="iib-logo"><img alt="Information is Beautiful" class="iib-logo--text" src="Information-is-Beautiful_files/information-is-beautiful-logo-text-light.svg" /></div>
+                            <div class="iib-legal">© 2021</div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="iib-overlay iib-signup-overlay">
+            <div class="iib-w">
+                <div class="iib-w-inner--loose">
+                    <div class="iib-signup-wrapper">
+                        <form
+                            role="form"
+                            action="//informationisbeautiful.us6.list-manage.com/subscribe/post?u=ddd60592f59ea1712ed3d1937&amp;id=0f32d82422"
+                            method="post"
+                            name="mc-embedded-subscribe-form"
+                            class="iib-signup iib-signup--in-overlay validate"
+                            target="_blank"
+                            rel="noopener"
+                            novalidate=""
+                        >
+                            <a class="iib-overlay-close"><i class="icon-cancel"></i></a>
+                            <h3><label for="iib_signup_overlay_email">Our monthly newsletter. Never miss another beautiful graphic...</label></h3>
+                            <div style="margin-top: 20px;" class="iib-fields">
+                                <input id="iib_signup_overlay_email" name="EMAIL" type="email" placeholder="Your email address..." class="iib-signup-main-input" /> <button type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="iib-overlay iib-search-overlay">
+            <div class="iib-search-wrapper">
+                <form method="get" action="https://informationisbeautiful.net" name="search" id="search-main"><input type="search" class="iib-search-main-input" name="s" placeholder="Type here to search" /></form>
+                <ul class="iib-search-results"></ul>
+            </div>
+        </div>
+        <div class="iib-overlay iib-lightbox-overlay">
+            <div class="iib-lightbox--wrapper">
+                <a class="iib-overlay-close"><i class="icon-cancel"></i></a>
+                <div class="iib-lightbox-content"></div>
+            </div>
+        </div>
+        <script async="" src="Information-is-Beautiful_files/js"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "UA-78564544-1");
+        </script>
+        <script src="Information-is-Beautiful_files/main.js"></script>
+        <iframe src="Information-is-Beautiful_files/console.html" id="vimvixen-console-frame" class="vimvixen-console-frame"></iframe>
+        <script>
+            var params = {};
+        </script>
+        <script>
+            params.site_conf = {
+                base_url: "https://informationisbeautiful.net",
+                no_top_banner: '["tag","category","taxonomy-topic","archive-visualizations","template-core-training","template-core-training-2"]',
+                no_bottom_banner: '["template-core-training","template-core-training-2"]',
+                data_mode: "",
+                wrap_domains: ["youtube", "vimeo"],
+            };
+            params.tags =
+                '{"6":"belief","8":"science","9":"thought","10":"death","11":"disaster","13":"health","15":"psychology","28":"literature","30":"pop-culture","31":"web-tech","32":"space","34":"money","35":"politics","36":"power","38":"drugs","39":"food","41":"relationships","45":"how-to","47":"climate","49":"media","52":"film","54":"music","66":"crime","67":"gender","68":"ideas","69":"interactive","71":"business","78":"commercial","79":"environment"}';
+        </script>
+        <script>
+            params.filters =
+                '[[92,"arts-culture","Arts &amp; Culture"],[93,"dataviz-design","Dataviz &amp; Design"],[89,"food-drink","Food &amp; Drink"],[96,"gender-diversity","Gender &amp; Diversity"],[90,"ideas-perception","Ideas &amp; Perception"],[102,"just-for-fun","Just For Fun"],[91,"money-economy","Money &amp; Economy"],[87,"nature-climate","Nature &amp; Climate"],[88,"science-health","Science &amp; Health"],[99,"tech-digital","Tech &amp; Digital"],[101,"beautiful-news","Beautiful News"]]';
+            params.events =
+                '[{"event_id":"166032314121","event_label":"Live Zoom Workshop","event_date":"Oct 21, 2021","event_time":"10:00:00","event_location":"USA TIMEZONE","event_status":"sold_out"},{"event_id":"166034135569","event_label":"Live Zoom Workshop","event_date":"Nov 8, 2021","event_time":"12:00:00","event_location":"LOW-INCOME COUNTRIES","event_status":"neutral"},{"event_id":"204673021517","event_label":"Live Zoom Workshop","event_date":"Feb 1, 2022","event_time":"10:00:00","event_location":"USA TIMEZONE","event_status":"neutral"},{"event_id":"204681336387","event_label":"Live Zoom Workshop","event_date":"Mar 1, 2022","event_time":"10:00:00","event_location":"UK TIMEZONE","event_status":"neutral"}]';
+        </script>
+        <script>
+            params.page_conf = {
+                now: "1636554244",
+                template: "front-page",
+                post_type: "page",
+                front_page: true,
+                page: "home",
+                page_title: "Home",
+                permalink: "https://informationisbeautiful.net",
+                post_id: 0,
+                share_url: "https://informationisbeautiful.net/",
+                request: "/",
+                query: "",
+                content_type: "",
+            };
+        </script>
+        <script>
+            iib.init(params);
+        </script>
+    </body>
+    <grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1636554244 -->
+
